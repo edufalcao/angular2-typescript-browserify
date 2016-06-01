@@ -1,0 +1,37 @@
+{
+    "env": {
+      "browser": true,
+      "es6": false
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      },
+      "sourceType": "module"
+    },
+    "plugins": [],
+    "rules": {
+      "indent": [2, 2],
+      "linebreak-style": [2, "unix"],
+      "semi": [2,"always"],
+      "no-unused-vars": [2, {"vars": "all", "args": "none"}],
+      "no-console": 0
+    },
+    "globals": {
+      "jQuery": true,
+      "$": true,
+      "describe": true,
+      "it": true,
+      "before": true,
+      "beforeEach": true,
+      "after": true,
+      "afterEach": true,
+      "assert": true,
+      "Promise": true,
+      "require": true,
+      "module": true,
+      "__dirname": true,
+      "i18n": true
+    }
+}
