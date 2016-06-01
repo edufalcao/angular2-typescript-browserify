@@ -1,0 +1,22 @@
+<html lang="en-US">
+  <head>
+    
+    <!-- build:process -->
+      <!-- App version: <%= version %> -->
+    <!-- /build -->
+
+    <meta charset="utf-8">
+
+  </head>
+  <body class="container">
+    <my-app>Loading...</my-app>
+
+    <!-- build:process -->
+    <script type="text/javascript" src="./js/bundle.js?b=<%= build_time %>" charset="utf-8"></script>
+    <!-- /build -->
+
+    <!-- build:remove release -->
+    <script src="//localhost:35729/livereload.js"></script>
+    <!-- /build -->
+  </body>
+</html>
