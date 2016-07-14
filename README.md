@@ -1,6 +1,8 @@
 # angular2-typescript-browserify
 A boilerplate project using Angular 2, Typescript, Karma, Jasmine and Browserify
 
+
+
 ### Steps
 1- Clone repo
 ```
@@ -18,3 +20,8 @@ npm install
 ```
 grunt
 ```
+
+
+
+### TODO
+Router, Unit tests, E2E tests

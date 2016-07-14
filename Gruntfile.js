@@ -94,7 +94,7 @@ module.exports = function(grunt) {
       },
       styles:  {
         files: [
-          "app/*/scss/**/*"
+          "app/scss/**/*"
         ],
         tasks: ["sass"]
       },
@@ -130,9 +130,13 @@ module.exports = function(grunt) {
     },
 
     sass: {
-      files: { },
       options: {
         sourceMap: true
+      },
+      dist: {
+        files: {
+          "target/css/bundle.css": "./app/scss/common.scss"
+        }
       }
     },
 
