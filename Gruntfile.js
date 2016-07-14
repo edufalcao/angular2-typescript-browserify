@@ -143,7 +143,7 @@ module.exports = function(grunt) {
         },
         options: {
           plugin: [["tsify"]],
-          transform: ["stringify"],
+          transform: [["sassify", {sourceMap: false}], ["stringify"]],
           watch: true,
           browserifyOptions: {
             debug: true

@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'sample',
-  template: require('./sample.component.html')
+  template: require('./sample.component.html'),
+  styles: [require('./sample.component.scss')]
 })
 export class SampleComponent implements OnInit {
   text: string;
