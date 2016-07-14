@@ -1,4 +1,5 @@
 /// <reference path="../../typings/browser.d.ts" />
+/// <reference path="./common.d.ts" />
 
 import 'reflect-metadata';
 import 'zone.js/dist/zone';
